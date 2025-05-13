@@ -6,7 +6,7 @@ from datetime import datetime
 from streamlit_feedback import streamlit_feedback # Import the component
 
 # Get the API URL from environment variable or use default
-API_URL = os.environ.get("API_URL", "http://backend:8000")
+API_URL = os.environ.get("API_URL","https://ualr-chatbot-backend.onrender.com")
 
 # Page configuration
 st.set_page_config(page_title="UALR Chatbot Demo", layout="centered")
